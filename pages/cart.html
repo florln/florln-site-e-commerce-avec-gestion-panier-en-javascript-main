@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-SHOP</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+    <header>
+        <h1>
+            MP3 SHOP
+        </h1>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="../index.html">Accueil</a></li>
+                <li><a href="../index.html">Produits</a></li>
+                <li><a href="cart.html" id="cart-link" > <i class="fas fa-cart-plus"></i> 
+                    ( <span id="cart-count">0</span> )
+                </a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="cart-section">
+            <h2>Votre panier</h2>
+            <div id="cart-items">
+               
+            </div>
+            <p id="total-price"></p>
+            <button class="checkout">Passe à la caisse</button>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Mon E-Commerce. Tous droits réservés.</p>
+    </footer>
+
+    <script src="../js/cart.js"></script>
+</body>
+</html>
